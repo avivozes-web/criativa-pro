@@ -45,3 +45,7 @@ gsap.from('.ba,.pfinal,.vtable,.vbest',{});
 ['.ba','.pfinal','.resumo','.vtable','.vbest'].forEach(s=>gsap.from(s,{y:70,opacity:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:s,start:'top 88%'}}));
 
 gsap.utils.toArray('.peek .screen').forEach((el,i)=>gsap.from(el,{y:60,rotationX:35,opacity:0,duration:1,delay:i*.15,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}}));
+gsap.set('.jm',{opacity:0});
+ScrollTrigger.batch('.jm',{start:'top 90%',onEnter:b=>gsap.fromTo(b,{x:-40,opacity:0},{x:0,opacity:1,stagger:.1,duration:.7,ease:'power3.out',overwrite:true})});
+gsap.to('#jfill',{height:'100%',ease:'none',scrollTrigger:{trigger:'.journey',start:'top 75%',end:'bottom 60%',scrub:true}});
+gsap.from('.fast,.dl',{y:40,opacity:0,duration:.8,stagger:.15,scrollTrigger:{trigger:'.fast',start:'top 90%'}});
