@@ -177,3 +177,13 @@ footer{text-align:center;font-size:.7rem;color:var(--muted);padding:1rem 0 2rem;
 .dl{margin-top:1rem}
 @media(min-width:800px){.journey{grid-template-columns:repeat(3,1fr);padding:0}.jline,.jm:before{display:none}.jm{grid-template-columns:64px 1fr}}
 @media(max-width:799px){.jm{padding:.7rem;grid-template-columns:44px 1fr;gap:.65rem}.jm-n{font-size:1.5rem}.jm h3{font-size:.76rem}.jm p{font-size:.68rem}}
+.slim{padding-top:1.5rem!important;padding-bottom:0!important}
+.mapa{display:flex;align-items:center;gap:.8rem;padding:.8rem 1rem;text-decoration:none;color:var(--ink);transition:transform .3s}.mapa:hover{transform:translateY(-3px)}
+.mapa i{font-style:normal;font-size:1.5rem}.mapa span{flex:1;display:flex;flex-direction:column}.mapa b{font-size:.82rem}.mapa small{font-size:.7rem;color:var(--muted)}.mapa em{font-style:normal;font-size:.66rem;font-weight:900;color:var(--red);letter-spacing:1px;white-space:nowrap}
+.vtable .neg{display:block;font-style:normal;font-size:.64rem;font-weight:600;color:#c2273f;margin-top:.1rem}
+.diff{font-family:"Playfair Display";font-style:italic;font-size:1.4rem!important;margin-top:.8rem}
+.btn.wa{background:#25d366;color:#fff;font-size:1rem;padding:1.15rem 2.2rem;border-radius:14px;box-shadow:0 14px 30px rgba(37,211,102,.4);letter-spacing:1px}
+.btn.wa:hover{box-shadow:0 18px 40px rgba(37,211,102,.55)}
+.back{font-size:.7rem;font-weight:700;color:var(--muted);text-decoration:none}
+.mens{font-size:.68rem!important;opacity:.75;margin:.1rem 0 .7rem}
+.vbest>p:not(.price):not(.diff):not(.eq):not(.mens){font-size:.84rem}
