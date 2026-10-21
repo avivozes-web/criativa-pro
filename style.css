@@ -187,3 +187,4 @@ footer{text-align:center;font-size:.7rem;color:var(--muted);padding:1rem 0 2rem;
 .back{font-size:.7rem;font-weight:700;color:var(--muted);text-decoration:none}
 .mens{font-size:.68rem!important;opacity:.75;margin:.1rem 0 .7rem}
 .vbest>p:not(.price):not(.diff):not(.eq):not(.mens){font-size:.84rem}
+.seal{display:inline-block;margin-bottom:.6rem;padding:.35rem .8rem;border-radius:99px;background:var(--g);color:#fff;font-size:.62rem;font-weight:900;letter-spacing:1.5px;box-shadow:0 8px 20px rgba(255,46,77,.3)}

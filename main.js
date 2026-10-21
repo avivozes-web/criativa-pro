@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 const mm=gsap.matchMedia();
 // hero intro
-gsap.from('.hello',{y:30,opacity:0,duration:.8,ease:'power3.out'});
+gsap.from('.seal,.hello',{y:30,opacity:0,duration:.8,ease:'power3.out'});
 gsap.from('.name .ln',{yPercent:110,opacity:0,duration:1.1,stagger:.12,ease:'expo.out',delay:.15});
 gsap.from('.role,.intro,.ctas',{y:30,opacity:0,duration:.9,stagger:.1,delay:.5,ease:'power3.out'});
 gsap.from('#idcard',{y:-260,rotation:-25,duration:1.6,ease:'elastic.out(1,.45)',delay:.4});
